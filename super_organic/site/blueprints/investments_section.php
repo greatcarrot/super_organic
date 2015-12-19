@@ -1,8 +1,8 @@
 <?php if(!defined('KIRBY')) exit ?>
 
-title: News Section
+title: Invesments Section
 pages:
-  template: news
+  template: investment
 deletable: false
 files: false
 fields:

@@ -21,14 +21,13 @@
                               <?php endif ?>
                               <div class="bbx-member-sidebar">
                                 <ul class="bbx-icon-list bbx-2x-margin-bottom">
-                                  <li><i class="fa fa-phone transparent-text-black"></i><strong class="color-color-option"><?php echo $page->tel()->kirbytext() ?></strong></li>
+                                  <li><i class="fa fa-phone transparent-text-black"></i><strong class="color-color-option"><?php echo $page->phone()->kirbytext() ?></strong></li>
                                   <li><i class="fa fa-envelope transparent-text-black"></i><span><?php echo $page->email()->kirbytext() ?></span></li>
                                   <li><i class="fa fa-map-marker transparent-text-black"></i><?php echo $page->address()->kirbytext() ?></li>
                                 </ul>
-                                <h5 class="bbx-sergeant bbx-block transparent-text-black"><?php echo $page->leftsection()->kirbytext() ?></h5>
+                                <h5 class="bbx-sergeant bbx-block transparent-text-black"><?php echo $page->leftSectionTitle()->kirbytext() ?></h5>
                                 <span class="bbx-wide-divider-small-detail"></span>
-                                <p><strong><?php echo $page->leftsectiontitle()->kirbytext() ?></strong></p>
-                                <p class="bbx-2x-margin-bottom"><?php echo $page->leftsectiontext()->kirbytext() ?></p>
+                                <p class="bbx-2x-margin-bottom"><?php echo $page->leftSectionText()->kirbytext() ?></p>
                                 <h5 class="bbx-sergeant bbx-block transparent-text-black">Social Networks</h5>
                                 <span class="bbx-wide-divider-small-detail"></span>
                                 <a href="#" class="bbx-simple-social-link bbx-facebook">
@@ -41,25 +40,11 @@
                                   <i class="fa fa-google-plus"></i>
                                 </a>
                               </div>
-                              <h3 class="bbx-block bbx-no-margin">Frank Griffin</h3>
-                              <h5 class="bbx-sergeant bbx-block transparent-text-black bbx-2x-margin-bottom">Attorney</h5>
+                              <h3 class="bbx-block bbx-no-margin"><?php echo $page->rightSectionTitle()->kirbytext() ?></h3>
                               <span class="bbx-wide-divider-small-detail"></span>
                               <div>
-                                <p><span class="bbx-dropcap large-dropcap text-color-color-option">a</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis nisi tincidunt, molestie nunc vulputate, posuere mauris. Donec gravida augue eget risus varius lacinia. Vestibulum gravida dictum est eu aliquam. Nulla suscipit, quam ac interdum ullamcorper, justo quam auctor libero, a porttitor ante urna eu ante.</p>
-                                <p class="transparent-text-black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis nisi tincidunt, molestie nunc vulputate, posuere mauris. Donec gravida augue eget risus varius lacinia. Vestibulum gravida dictum est eu aliquam. Nulla suscipit, quam ac interdum ullamcorper</p>
-                                <h5 class="bbx-sergeant bbx-block transparent-text-black">Biography</h5>
-                                <span class="bbx-wide-divider-small-detail"></span>
-                                <p><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis nisi tincidunt, molestie nunc vulputate, posuere mauris.</strong></p>
-                                <p>Donec gravida augue eget risus varius lacinia. Vestibulum gravida dictum est eu aliquam. Nulla suscipit, quam ac interdum ullamcorper, justo quam auctor libero, a porttitor ante urna eu ante.</p>
-                                <p class="bbx-2x-margin-bottom">Sed et tristique mauris. Fusce eget orci vel velit interdum blandit ut at augue. Ut rhoncus venenatis elit, a rhoncus mi iaculis nec. Nunc sit amet elit suscipit, efficitur purus vitae, ultrices enim. Cras ex magna, aliquet et venenatis ac, rhoncus at mauris. Nam a enim molestie enim tempus elementum non et diam.</p>
-                                <h5 class="bbx-sergeant bbx-block transparent-text-black">Practice Areas</h5>
-                                <span class="bbx-wide-divider-small-detail"></span>
-                                <p>Sed et tristique mauris. Fusce eget orci vel velit interdum blandit ut at augue.</p>
-                                <ul class="bbx-icon-list bbx-no-margin">
-                                  <li><i class="fa fa-check color-turquoise"></i><strong>Cras ex magna, aliquet et venenatis ac, rhoncus at mauris. Nam a enim molestie.</strong></li>
-                                  <li><i class="fa fa-check color-turquoise"></i><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis nisi tincidunt, molestie nunc vulputate, posuere mauris.</strong></li>
-                                  <li><i class="fa fa-check color-turquoise"></i><strong>Donec gravida augue eget risus varius lacinia. Vestibulum gravida dictum est eu.</strong></li>
-                                </ul>
+                                <p><?php echo $page->rightSectionText()->kirbytext() ?></p>
+                                
                               </div>
                               <span class="bbx-top-left-detail"></span>
                               <span class="bbx-top-right-detail"></span>
