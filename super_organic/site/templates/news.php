@@ -1,6 +1,6 @@
 <?php snippet('header') ?>
 <div id="bbx-contents-wrap" class="main-wrap" style="background-color:#262626-">
-      <section id="main">
+      <section id="news">
         <header class="bbx-head bbx-9x-padding-top bbx-4x-padding-bottom">
           <div class="bbx-header-content bbx-main-container">
             <div class="bbx-head-title-area">
