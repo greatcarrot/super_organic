@@ -1,18 +1,3 @@
-  <footer class="footer cf" role="contentinfo">
-
-    <div class="copyright">
-      <?php echo $site->copyright()->kirbytext() ?>
-    </div>
-
-    <div class="colophon">
-      <a href="http://getkirby.com/made-with-kirby-and-love">Made with Kirby and <b>♥</b></a>
-    </div>
-
-  </footer>
-
-</body>
-</html>
-
       <footer class="bbx-4x-padding-bottom bbx-4x-padding-top bbx-dark-background">
         <div class="bbx-footer-content bbx-main-container">
           <div class="bbx-row bbx-grid-4x-margin no-outter-padding">
@@ -64,7 +49,7 @@
             <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
             <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
           </ul>
-          <p class="transparent-text-white bbx-no-margin bbx-align-right">RELY By Antoni Sinote Botev & Evgeni Dimonni Dimov</p>
+          <p class="transparent-text-white bbx-no-margin bbx-align-right"><?php echo $site->copyright()->kirbytext() ?></p>
         </div>
       </div>
       <span class="bbx-left-border"></span>
