@@ -2,7 +2,7 @@
         <div class="section-content-width"> <!-- Element Width -->
           <div class="bbx-row bbx-grid-4x-margin no-outter-padding">
             <div class="bbx-col-1">
-              <h3><?php echo $page->title()->html() ?></h3>
+              <h3><?php echo $data->title()->html() ?></h3>
               <div class="bbx-element-content">
                 <div class="bbx-row bbx-grid-4x-margin no-outter-padding">
                   <div class="bbx-col-1">

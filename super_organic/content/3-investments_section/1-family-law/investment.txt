@@ -2,7 +2,13 @@ Leftsectiontitle: Test 1
 
 ----
 
-Leftsectiontext: Lorem Text
+Leftsectiontext: 
+
+Lorem Text Lorem Text Lorem Text Lorem Text v Lorem Text
+LoremTextLoremTextLoremTextLoremTextLoremTextLoremText
+LoremText
+LoremText LoremText LoremText LoremText
+LoremText
 
 ----
 
@@ -10,7 +16,13 @@ Rightsectiontitle: Test 2
 
 ----
 
-Rightsectiontext: Lorem Text
+Rightsectiontext: 
+
+Lorem Text Lorem Text Lorem Text Lorem Text v Lorem Text
+LoremTextLoremTextLoremTextLoremTextLoremTextLoremText
+LoremText
+LoremText LoremText LoremText LoremText
+LoremText
 
 ----
 

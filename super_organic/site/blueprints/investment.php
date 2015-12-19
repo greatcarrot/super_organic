@@ -4,6 +4,9 @@ title: Investment
 pages: false
 files: true
 fields:
+  title:
+    label: Page Title
+    type:  text
   leftSectionTitle:
     label: Left Section Title
     type:  text
