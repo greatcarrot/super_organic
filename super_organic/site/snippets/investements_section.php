@@ -3,11 +3,11 @@
           <div class="bbx-row bbx-grid-4x-margin no-outter-padding">
             <div class="bbx-col-1">
               <div class="bbx-element-head bbx-align-center bbx-4x-padding-bottom">
-                <p class="bbx-quote-text bbx-no-margin"><?php echo $page->title()->html() ?></p>
+                <p class="bbx-quote-text bbx-no-margin"><?php echo $data->title()->html() ?></p>
               </div>
               <div class="bbx-element-content">
                 <div class="bbx-row bbx-grid-4x-margin no-outter-padding">
-                  <?php $investments = $page->children()->visible()->flip() ?>
+                  <?php $investments = $data->children()->visible()->flip() ?>
 
                   <?php foreach($investments as $article): ?>
                   <div class="bbx-col-3">

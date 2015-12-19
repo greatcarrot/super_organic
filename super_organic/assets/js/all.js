@@ -3,7 +3,7 @@
 // Config
 
 /* global settings */
-var bbxHijackLinks =				true && document.location.protocol.indexOf('file') !== 0;
+var bbxHijackLinks =				false && document.location.protocol.indexOf('file') !== 0;
 var bbxAdminUrl =					null;
 var bbxLoginUrl =					null;
 

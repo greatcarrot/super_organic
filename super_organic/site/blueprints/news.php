@@ -1,18 +1,17 @@
 <?php if(!defined('KIRBY')) exit ?>
 
 title: About
-pages: true
-deletable: false
-files: false
+pages: false
+files: true
 fields:
   title:
     label: Title
     type:  text
-  textFirst:
+  text:
     label: Text Part One
     type:  textarea
     size:  large
-  textSecond:
-    label: Text Part Two
-    type:  textarea
-    size:  large
+  date:
+    label: Date
+    type: date
+    format: MM/DD/YYYY

@@ -5,12 +5,12 @@
               <div class="bbx-element-content bbx-animation-on-appear fade_up">
                 <div class="bbx-row bbx-grid-4x-margin no-outter-padding">
                   <div class="bbx-col-1">
-                    <h3><?php echo $page->title()->html() ?></h3>
+                    <h3><?php echo $data->title()->html() ?></h3>
                     <div class="bbx-content-swiper bbx-slider" data-effect="slide">
                       <!-- Swiper backgrounds (actual slides) -->
                       <div class="swiper-container">
                         <div class="swiper-wrapper">
-                        <?php $news = $page->children()->visible()->flip()->paginate(3) ?>
+                        <?php $news = $data->children()->visible()->flip()->paginate(3) ?>
 
                         <?php foreach($news as $article): ?>
                           <div class="swiper-slide">
@@ -18,7 +18,7 @@
                               <div class="bbx-col-2">
                                 <div class="bbx-simple-photo-slider">
                                   <div class="bbx-photo-wrap">
-                                    <img src="<?php echo $article->image()->url() ?>" alt="<?php echo html($article->image()->title()) ?>">
+                                    <img src="<?php if($article->image()){echo $article->image()->url();} ?>" alt="<?php if($article->image()){echo html($article->image()->title());} ?>">
                                   </div>
                                 </div>
                               </div>
@@ -33,9 +33,15 @@
                         </div>
                       </div>
                       <ul class="bbx-simple-bullets swiper-control-nav">
+                        <?php if($news->count() == 1 || $news->count() == 2 || $news->count() == 3): ?>
                         <li class="current-bullet"><a href="#"></a></li>
+                        <?php endif ?>
+                        <?php if($news->count() == 2 || $news->count() == 3): ?>
                         <li><a href="#"></a></li>
+                        <?php endif ?>
+                        <?php if($news->count() == 3): ?>
                         <li><a href="#"></a></li>
+                        <?php endif ?>
                       </ul>
                     </div>
                   </div>

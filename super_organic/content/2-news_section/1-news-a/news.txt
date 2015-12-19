@@ -1,0 +1,9 @@
+Title: A COMPANY NAME
+
+----
+
+Text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis nisi tincidunt, molestie nunc vulputate, posuere mauris.
+
+----
+
+Date: 2015-12-10

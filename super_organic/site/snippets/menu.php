@@ -2,7 +2,7 @@
     <a id="bbx-mobile-menu-button" href="#">
       <span></span>
     </a>
-    <a href="index.html" class="bbx-logo">
+    <a href="<?php echo $site->homePage()->url() ?>" class="bbx-logo">
       <img class="bbx-logo-light" src="<?php echo url('assets/images/logo-r-peter-river.png') ?>" alt="logo image">
       <img class="bbx-logo-default" src="<?php echo url('assets/images/logo-r-peter-river.png') ?>" alt="logo image">
     </a>
@@ -13,7 +13,7 @@
     </p>
     </div>
     <ul class="prime-nav">
-      <li class="current-menu-item"><a href="#main">Home</a></li>
+      <li class="current-menu-item"><a href="<?php if(page()->isHomePage()){echo "#main";}else{echo $site->homePage()->url();}?>">Home</a></li>
       <li class=""><a href="#about">About</a></li>
       <li class=""><a href="#news">News</a></li>
       <li class=""><a href="#investments">New Zealand Investments</a></li>
