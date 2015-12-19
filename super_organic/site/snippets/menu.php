@@ -9,7 +9,7 @@
     <div class="bbx-logo-extra-text">
       <p class="bbx-meta bbx-no-margin">
         <!--<i class="fa fa-phone transparent-text-white" style="margin-right:12px;"></i> 215-564-4312-->
-        <!--RELY - --><?php echo $p->title()->html() ?>
+        <!--RELY - --><?php echo $site->title()->html() ?>
     </p>
     </div>
     <ul class="prime-nav">

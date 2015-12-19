@@ -26,12 +26,12 @@
   </head>
   <body>
 
-    <header class="header cf" role="banner">
-      <a class="logo" href="<?php echo url() ?>">
-        <img src="<?php echo url('assets/images/logo.svg') ?>" alt="<?php echo $site->title()->html() ?>" />
+    <!--<header class="header cf" role="banner">
+      <a class="logo" href="<?php //echo url() ?>">
+        <img src="<?php //echo url('assets/images/logo.svg') ?>" alt="<?php //echo $site->title()->html() ?>" />
       </a>
-      <?php snippet('menu') ?>
-    </header>
+      <?php //snippet('menu') ?>
+    </header>-->
     <header id="header" class="bbx-nav bbx-nav-dark-text bbx-nav-no-background bbx-nav-dark-sub-menu" data-on-scroll-style="light">
       <!-- Do not remove the container, as some javascript might fail, just leave empty if not needed -->
       <div class="bbx-info-bar-container">
