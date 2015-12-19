@@ -49,7 +49,7 @@
             <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
             <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
           </ul>
-          <p class="transparent-text-white bbx-no-margin bbx-align-right"><?php echo $site->copyright()->kirbytext() ?></p>
+          <p class="transparent-text-white bbx-no-margin bbx-align-right"><?php echo $site->copyright()->html() ?></p>
         </div>
       </div>
       <span class="bbx-left-border"></span>

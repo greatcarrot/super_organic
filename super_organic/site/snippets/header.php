@@ -24,7 +24,7 @@
     <?php echo css('assets/css/application.css') ?>
 
   </head>
-  <body>
+  <body class="index no-header-info-bar">
 
     <!--<header class="header cf" role="banner">
       <a class="logo" href="<?php //echo url() ?>">
