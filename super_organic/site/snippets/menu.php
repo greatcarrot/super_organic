@@ -13,7 +13,7 @@
     </p>
     </div>
     <ul class="prime-nav">
-      <li class="current-menu-item"><a href="index.html">Home</a></li>
+      <li class="current-menu-item"><a href="#main">Home</a></li>
       <li class=""><a href="#about">About</a></li>
       <li class=""><a href="#news">News</a></li>
       <li class=""><a href="#investments">New Zealand Investments</a></li>
@@ -24,7 +24,7 @@
 <nav id="bbx-mobile-menu">
   <ul id="prime-nav-mobile" class="prime-nav-mobile-list">
     <li class="menu-item menu-item-has-children" style="overflow: hidden;">
-      <a href="index.html">Home</a>
+      <a href="#main">Home</a>
     </li>
     <li class="menu-item">
       <a href="#about">About</a>
