@@ -4,36 +4,36 @@
         <div class="bbx-hello-slider bbx-slider" data-full-screen="yes">
           <!-- Swiper slides texts-->
           <div class="slide-content">
-            <div class="slide-content-item" data-appear-effect="right" data-color-style="<?php echo $page->first_slide_colorstyle()->html() ?>">
+            <div class="slide-content-item" data-appear-effect="right" data-color-style="<?php echo $page->firstSlideColorstyle()->html() ?>">
               <div class="bbx-row side-padding">
                 <div class="bbx-col-2">
-                  <p class="bbx-sergeant transparent-text-black"><?php echo $page->first_slide_tagline()->html() ?></p>
+                  <p class="bbx-sergeant transparent-text-black"><?php echo $page->firstSlideTagline()->html() ?></p>
                   <span class="bbx-wide-divider-small-detail"></span>
-                  <h1><?php echo $page->first_slide_title()->html() ?></h1>
+                  <h1><?php echo $page->firstSlideTitle()->html() ?></h1>
                   <span class="bbx-wide-divider-small-detail"></span>
-                  <p class="transparent-text-black bbx-no-margin"><?php echo $page->first_slide_text()->kirbytext() ?></p>
+                  <p class="transparent-text-black bbx-no-margin"><?php echo $page->firstSlideText()->kirbytext() ?></p>
                 </div>
               </div>
             </div>
-            <div class="slide-content-item" data-appear-effect="right" style="display:none;" data-color-style="<?php echo $page->second_slide_colorstyle()->html() ?>">
+            <div class="slide-content-item" data-appear-effect="right" style="display:none;" data-color-style="<?php echo $page->secondSlideColorstyle()->html() ?>">
               <div class="bbx-row side-padding">
                 <div class="bbx-col-2">
-                  <p class="bbx-sergeant transparent-text-black"><?php echo $page->second_slide_tagline()->html() ?></p>
+                  <p class="bbx-sergeant transparent-text-black"><?php echo $page->secondSlideTagline()->html() ?></p>
                   <span class="bbx-wide-divider-small-detail"></span>
-                  <h1><?php echo $page->second_slide_title()->html() ?></h1>
+                  <h1><?php echo $page->secondSlideTitle()->html() ?></h1>
                   <span class="bbx-wide-divider-small-detail"></span>
-                  <p class="transparent-text-black bbx-no-margin"><?php echo $page->second_slide_text()->kirbytext() ?></p>
+                  <p class="transparent-text-black bbx-no-margin"><?php echo $page->secondSlideText()->kirbytext() ?></p>
                 </div>
               </div>
             </div>
-            <div class="slide-content-item" data-appear-effect="right" style="display:none;" data-color-style="<?php echo $page->third_slide_colorstyle()->html() ?>">
+            <div class="slide-content-item" data-appear-effect="right" style="display:none;" data-color-style="<?php echo $page->thirdSlideColorstyle()->html() ?>">
               <div class="bbx-row side-padding">
                 <div class="bbx-col-2">
-                  <p class="bbx-sergeant transparent-text-black"><?php echo $page->third_slide_tagline()->html() ?></p>
+                  <p class="bbx-sergeant transparent-text-black"><?php echo $page->thirdSlideTagline()->html() ?></p>
                   <span class="bbx-wide-divider-small-detail"></span>
-                  <h1><?php echo $page->third_slide_title()->html() ?></h1>
+                  <h1><?php echo $page->thirdSlideTitle()->html() ?></h1>
                   <span class="bbx-wide-divider-small-detail"></span>
-                  <p class="transparent-text-black bbx-no-margin"><?php echo $page->third_slide_text()->kirbytext() ?></p>
+                  <p class="transparent-text-black bbx-no-margin"><?php echo $page->thirdSlideText()->kirbytext() ?></p>
                 </div>
               </div>
             </div>
