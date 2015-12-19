@@ -4,7 +4,7 @@
         <header class="bbx-head bbx-9x-padding-top bbx-4x-padding-bottom">
           <div class="bbx-header-content bbx-main-container">
             <div class="bbx-head-title-area">
-              <h5 class="bbx-no-margin">News</h5>
+              <h5 class="bbx-no-margin"><?php echo $page->title()->html() ?></h5>
             </div>
             <div class="bbx-headline-extra">
               <ul class="bbx-breadcrumbs">
@@ -25,16 +25,16 @@
                       <div class="bbx-element-content">
                         <div class="bbx-row bbx-grid-4x-margin no-outter-padding">
                           <div class="bbx-col-1">
-                          <?php $news = $page->find('news_section')->children()->visible()->flip()->paginate(10) ?>
+                          <?php $news = $site->find('news_section')->children()->visible()->flip()->paginate(10) ?>
 
                         	<?php foreach($news as $articles): ?>
                             <article class="bbx-post-wrap bbx-animation-on-appear fade_up">
                               <div class="bbx-image-wrap">
                                 <span class="bbx-image">
-                                  <img src="<?php echo $articles->image()->url() ?>" alt="<?php echo html($articles->image()->title()) ?>">
-                                  <a href="<?php echo $articles->image()->url() ?>" class="bbx-gallery-link bbx-photo-swipe"
+                                  <img src="<?php if($articles->image()){echo $articles->image()->url();} ?>" alt="<?php if($articles->image()){echo html($articles->image()->title());} ?>">
+                                  <a href="<?php if($articles->image()){echo $articles->image()->url();} ?>" class="bbx-gallery-link bbx-photo-swipe"
                                                    data-bbx-photo-swipe-rel="home_blog"
-                                                   data-origin-size="<?php echo html($articles->image()->width()) ?>x<?php echo html($articles->image()->height()) ?>"><i class="fa fa-search"></i></a>
+                                                   data-origin-size="<?php if($articles->image()){echo html($articles->image()->width());} ?>x<?php if($articles->image()){echo html($articles->image()->height());} ?>"><i class="fa fa-search"></i></a>
                                 </span>
                                 <!--
                                                 * BbxPhotoSwipe
@@ -60,19 +60,20 @@
                               </div>
                             </article>
                             <?php endforeach ?>
-                            <?php if($articles->pagination()->hasPages()): ?>
+                            <?php if($news->pagination()->hasPages()): ?>
                             <ul class="bbx-std-pagination">
-                              <?php if($articles->pagination()->hasPrevPage()): ?>
-							  <li><a href="<?php echo $articles->pagination()->prevPageURL() ?>">previous</a></li>
+                              <?php if($news->pagination()->hasPrevPage()): ?>
+							  <li><a href="<?php echo $news->pagination()->prevPageURL() ?>">previous</a></li>
                               <?php endif ?>
-                              <?php foreach($articles->pagination()->range(10) as $r): ?>
-    						  <li><a<?php if($articles->pagination()->page() == $r) echo ' class="current"' ?> href="<?php echo $articles->pagination()->pageURL($r) ?>"><?php echo $r ?></a></li>
+                              <?php foreach($news->pagination()->range(10) as $r): ?>
+    						  <li><a<?php if($news->pagination()->page() == $r) echo ' class="current"' ?> href="<?php echo $news->pagination()->pageURL($r) ?>"><?php echo $r ?></a></li>
     						  <?php endforeach ?>	
                               
-                              <?php if($articles->pagination()->hasNextPage()): ?>
-                              <li><a href="<?php echo $articles->pagination()->nextPageURL() ?>">next</a></li>
+                              <?php if($news->pagination()->hasNextPage()): ?>
+                              <li><a href="<?php echo $news->pagination()->nextPageURL() ?>">next</a></li>
                               <?php endif ?>
                             </ul>
+                            <?php endif ?>
                           </div>
                         </div>
                       </div>

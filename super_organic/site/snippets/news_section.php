@@ -43,7 +43,13 @@
                         <li><a href="#"></a></li>
                         <?php endif ?>
                       </ul>
+                      
                     </div>
+                    <a href="<?php echo $site->find('news_list')->url() ?>" class="bbx-fancy-link bbx-block .bbx-align-center" style="margin: auto; max-width: 180px; text-align: center; margin-top: 50px;">
+                        <span class="fancy-text">
+                          More News
+                                        </span>
+                      </a>
                   </div>
                 </div>
               </div>
