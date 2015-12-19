@@ -7,9 +7,9 @@
                   <div class="bbx-col-1 bbx-animation-on-appear fade_left">
                     <h5 class="bbx-sergeant transparent-text-black">Our Story</h5>
                     <h3><?php echo $page->title()->html() ?></h3>
-                    <p><?php echo $page->text()->kirbytext() ?></p>
-                    <p class="transparent-text-black"><?php echo $page->text_second()->kirbytext() ?> </p>
-                    <span class="bbx-sign"><?php echo $site->sign()->kirbytext() ?></span>
+                    <p><?php echo $page->textFirst()->kirbytext() ?></p>
+                    <p class="transparent-text-black"><?php echo $page->textSecond()->kirbytext() ?> </p>
+                    <span class="bbx-sign"><?php echo $site->sign()->html() ?></span>
                   </div>
                 </div>
               </div>
