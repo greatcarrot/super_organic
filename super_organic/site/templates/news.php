@@ -25,7 +25,7 @@
                                   <img src="<?php echo $image->url() ?>" alt="<?php echo html($image->title()) ?>">
                                   <a href="<?php echo $image->url() ?>" class="bbx-gallery-link bbx-photo-swipe"
                                                    data-bbx-photo-swipe-rel="home_blog"
-                                                   data-origin-size="1080x612"><i class="fa fa-search"></i>
+                                                   data-origin-size="<?php echo html($image->width()) ?>x<?php echo html($image->height()) ?>"><i class="fa fa-search"></i>
                                   </a>
                                 </span>
                                 

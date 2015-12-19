@@ -18,7 +18,7 @@
                               <div class="bbx-col-2">
                                 <div class="bbx-simple-photo-slider">
                                   <div class="bbx-photo-wrap">
-                                    <img src="<?php echo $article->image()->url() ?>" alt="image">
+                                    <img src="<?php echo $article->image()->url() ?>" alt="<?php echo html($article->image()->title()) ?>">
                                   </div>
                                 </div>
                               </div>
