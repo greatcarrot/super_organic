@@ -4,36 +4,36 @@
         <div class="bbx-hello-slider bbx-slider" data-full-screen="yes">
           <!-- Swiper slides texts-->
           <div class="slide-content">
-            <div class="slide-content-item" data-appear-effect="right" data-color-style="dark">
+            <div class="slide-content-item" data-appear-effect="right" data-color-style="<?php echo $page->first_slide_colorstyle()->html() ?>">
               <div class="bbx-row side-padding">
                 <div class="bbx-col-2">
-                  <p class="bbx-sergeant transparent-text-black">Fast & Smooth</p>
+                  <p class="bbx-sergeant transparent-text-black"><?php echo $page->first_slide_tagline()->html() ?></p>
                   <span class="bbx-wide-divider-small-detail"></span>
-                  <h1>Lawyer Template</h1>
+                  <h1><?php echo $page->first_slide_title()->html() ?></h1>
                   <span class="bbx-wide-divider-small-detail"></span>
-                  <p class="transparent-text-black bbx-no-margin">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis tincidunt lobortis. Nulla accumsan eu tortor tincidunt posuere. (slide 1 text)</p>
+                  <p class="transparent-text-black bbx-no-margin"><?php echo $page->first_slide_text()->kirbytext() ?></p>
                 </div>
               </div>
             </div>
-            <div class="slide-content-item" data-appear-effect="right" style="display:none;" data-color-style="light">
+            <div class="slide-content-item" data-appear-effect="right" style="display:none;" data-color-style="<?php echo $page->second_slide_colorstyle()->html() ?>">
               <div class="bbx-row side-padding">
                 <div class="bbx-col-2">
-                  <p class="bbx-sergeant transparent-text-black">Fast & Smooth</p>
+                  <p class="bbx-sergeant transparent-text-black"><?php echo $page->second_slide_tagline()->html() ?></p>
                   <span class="bbx-wide-divider-small-detail"></span>
-                  <h1>Lawyer Template</h1>
+                  <h1><?php echo $page->second_slide_title()->html() ?></h1>
                   <span class="bbx-wide-divider-small-detail"></span>
-                  <p class="transparent-text-black bbx-no-margin">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis tincidunt lobortis. Nulla accumsan eu tortor tincidunt posuere.</p>
+                  <p class="transparent-text-black bbx-no-margin"><?php echo $page->second_slide_text()->kirbytext() ?></p>
                 </div>
               </div>
             </div>
-            <div class="slide-content-item" data-appear-effect="right" style="display:none;" data-color-style="light">
+            <div class="slide-content-item" data-appear-effect="right" style="display:none;" data-color-style="<?php echo $page->third_slide_colorstyle()->html() ?>">
               <div class="bbx-row side-padding">
                 <div class="bbx-col-2">
-                  <p class="bbx-sergeant transparent-text-black">Fast & Smooth</p>
+                  <p class="bbx-sergeant transparent-text-black"><?php echo $page->third_slide_tagline()->html() ?></p>
                   <span class="bbx-wide-divider-small-detail"></span>
-                  <h1>Lawyer Template</h1>
+                  <h1><?php echo $page->third_slide_title()->html() ?></h1>
                   <span class="bbx-wide-divider-small-detail"></span>
-                  <p class="transparent-text-black bbx-no-margin">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis tincidunt lobortis. Nulla accumsan eu tortor tincidunt posuere.</p>
+                  <p class="transparent-text-black bbx-no-margin"><?php echo $page->third_slide_text()->kirbytext() ?></p>
                 </div>
               </div>
             </div>
@@ -41,9 +41,9 @@
           <!-- Swiper backgrounds (actual slides) -->
           <div class="swiper-container">
             <div class="swiper-wrapper">
-              <div class="swiper-slide" style="background-image: url('<?php echo url('assets/images/1344x840.jpg') ?>');"></div>
-              <div class="swiper-slide" style="background-image: url('<?php echo url('assets/images/1344x840-2.jpg') ?>');"></div>
-              <div class="swiper-slide" style="background-image: url('<?php echo url('assets/images/1344x840-2.jpg') ?>');"></div>
+            <?php foreach($page->images()->paginate(3) as $image): ?>
+              <div class="swiper-slide" style="background-image: url('<?php echo $image->url() ?>');"></div>
+            <?php endforeach ?>
             </div>
           </div>
           <!-- Swiper control nav buttons -->
