@@ -42,8 +42,8 @@
                               </div>
                               <h3 class="bbx-block bbx-no-margin"><?php echo $page->rightSectionTitle()->kirbytext() ?></h3>
                               <span class="bbx-wide-divider-small-detail"></span>
-                              <div>
-                                <p><?php echo $page->rightSectionText()->kirbytext() ?></p>
+                              <div style="min-height: 670px;">
+                                <?php echo $page->rightSectionText()->kirbytext() ?>
                                 
                               </div>
                               <span class="bbx-top-left-detail"></span>

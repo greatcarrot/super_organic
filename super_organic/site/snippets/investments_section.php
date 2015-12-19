@@ -14,7 +14,7 @@
                     <div class="bbx-frame-icon-box bbx-corner-details bbx-align-center bbx-4x-margin-bottom bbx-animation-on-appear fade_up">
                       <h5><a href="#" class="bbx-dark-link"><?php echo $article->title()->html() ?></a></h5>
                       <span class="bbx-divider-small"></span>
-                      <p class="transparent-text-black"><?php echo $article->text()->kirbytext() ?></p>
+                      <p class="transparent-text-black"><?php echo $article->rightSectionText()->excerpt(60) ?></p>
                       <a href="<?php echo $article->url() ?>" class="bbx-fancy-link bbx-block" style="padding-top:7px;">
                         <span class="fancy-text">
                           Learn More
