@@ -1,25 +1,3 @@
-<nav role="navigation">
-
-  <ul class="menu cf">
-    <?php foreach($pages->visible() as $p): ?>
-    <li>
-      <a <?php e($p->isOpen(), ' class="active"') ?> href="<?php echo $p->url() ?>"><?php echo $p->title()->html() ?></a>
-
-      <?php if($p->hasVisibleChildren()): ?>
-      <ul class="submenu">
-        <?php foreach($p->children()->visible() as $p): ?>
-        <li>
-          <a href="<?php echo $p->url() ?>"><?php echo $p->title()->html() ?></a>
-        </li>
-        <?php endforeach ?>
-      </ul>
-      <?php endif ?>
-
-    </li>
-    <?php endforeach ?>
-  </ul>
-
-</nav>
   <nav>
     <a id="bbx-mobile-menu-button" href="#">
       <span></span>
@@ -31,7 +9,7 @@
     <div class="bbx-logo-extra-text">
       <p class="bbx-meta bbx-no-margin">
         <!--<i class="fa fa-phone transparent-text-white" style="margin-right:12px;"></i> 215-564-4312-->
-        <!--RELY - -->Super Organic Dairy
+        <!--RELY - --><?php echo $p->title()->html() ?>
     </p>
     </div>
     <ul class="prime-nav">
