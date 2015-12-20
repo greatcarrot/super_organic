@@ -51,10 +51,10 @@
                                 </div>
                               </div>
                               <div class="bbx-post-content">
-                                <h3><a class="bbx-dark-link" href="standard-blog-post.html"><?php echo $articles->title()->html() ?></a></h3>
+                                <h3><a class="bbx-dark-link" href="<?php echo $articles->url() ?>"><?php echo $articles->title()->html() ?></a></h3>
                                 <p class="transparent-text-black excerpt"><?php echo $articles->text()->kirbytext() ?></p>
                                 <div class="bbx-meta-container">
-                                  <a class="bbx-bullet-link bbx-dark-link" href="<?php echo $page->url() ?>">Read More <i class="fa fa-plus"></i></a>
+                                  <a class="bbx-bullet-link bbx-dark-link" href="<?php echo $articles->url() ?>">Read More <i class="fa fa-plus"></i></a>
                                   
                                 </div>
                               </div>
