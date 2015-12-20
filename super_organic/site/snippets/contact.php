@@ -99,7 +99,7 @@
               <div class="bbx-element-content">
                 <div class="bbx-row bbx-grid-4x-margin no-outter-padding">
                   <div class="bbx-col-1">
-                    <form action="components/mailer.php" accept-charset="UTF-8" class="bbx-form wpcf7-form bbx-corner-details visible-corners" method="post">
+                    <form action="<?php echo url('assets/components/mailer.php'); ?>" accept-charset="UTF-8" class="bbx-form wpcf7-form bbx-corner-details visible-corners" method="post">
                       <p class="bbx-fancy-input">
                         <label for="f1name">Your Name (required)</label>
                         <br>
@@ -141,7 +141,7 @@
                                     to display success/eror results
                                     -->
                       <p class="form-extra-info transparent-text-black form-results-container">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis nisi tincidunt, molestie nunc vulputate
+                        
                                     </p>
                       <span class="bbx-top-left-detail"></span>
                       <span class="bbx-top-right-detail"></span>
