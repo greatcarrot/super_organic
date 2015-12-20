@@ -197,5 +197,14 @@
     <?php echo js('assets/js/all.js') ?>
     <?php echo js('assets/js/jquery-1.11.3.min.js') ?>
     <?php echo js('assets/js/scrollOnePage.js') ?>
+
+    <?php if(strcmp((string)$page->template(), 'investment') == 0): ?>
+    <script type="text/javascript">
+    var newHeight = parseInt($('#sidebar').css('height')) + 200;
+    newHeight = newHeight+'px';
+    console.log(newHeight);
+    $('#maintext').css({'minHeight': newHeight});
+    </script>
+	<?php endif ?>
   </body>
 </html>

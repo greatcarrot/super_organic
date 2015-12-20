@@ -19,7 +19,7 @@
                                 <img src="<?php echo $image->url() ?>" alt="<?php echo html($image->title()) ?>">
                               </div>
                               <?php endif ?>
-                              <div class="bbx-member-sidebar">
+                              <div class="bbx-member-sidebar" id="sidebar">
                                 <ul class="bbx-icon-list bbx-2x-margin-bottom">
                                   <li><i class="fa fa-phone transparent-text-black"></i><strong class="color-color-option"><?php echo $page->phone()->kirbytext() ?></strong></li>
                                   <li><i class="fa fa-envelope transparent-text-black"></i><span><?php echo $page->email()->kirbytext() ?></span></li>
@@ -42,7 +42,7 @@
                               </div>
                               <h3 class="bbx-block bbx-no-margin"><?php echo $page->rightSectionTitle()->kirbytext() ?></h3>
                               <span class="bbx-wide-divider-small-detail"></span>
-                              <div style="min-height: 670px;">
+                              <div style="min-height: 670px;" id="maintext">
                                 <?php echo $page->rightSectionText()->kirbytext() ?>
                                 
                               </div>
@@ -62,4 +62,5 @@
           </div>
         </div>
       </section>
+      
 <?php snippet('footer') ?>

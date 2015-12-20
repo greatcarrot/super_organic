@@ -9,7 +9,7 @@
                     <h3><?php echo $data->title()->html() ?></h3>
                     <p><?php echo $data->textFirst()->kirbytext() ?></p>
                     <p class="transparent-text-black"><?php echo $data->textSecond()->kirbytext() ?> </p>
-                    <span class="bbx-sign"><?php echo $site->sign()->html() ?></span>
+                    <span class="bbx-sign">John Doe Sign</span>
                   </div>
                 </div>
               </div>
