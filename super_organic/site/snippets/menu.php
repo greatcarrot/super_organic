@@ -14,10 +14,10 @@
     </div>
     <ul class="prime-nav">
       <li class="current-menu-item"><a href="<?php if(page()->isHomePage()){echo "#main";}else{echo $site->homePage()->url();}?>">Home</a></li>
-      <li class=""><a href="#about">About</a></li>
-      <li class=""><a href="#news">News</a></li>
-      <li class=""><a href="#investments">New Zealand Investments</a></li>
-      <li class=""><a href="#contact">Contact</a></li>
+      <li class=""><a href="<?php if(page()->isHomePage()){echo "#about";}else{echo $site->homePage()->url() . DS . "#about";}?>">About</a></li>
+      <li class=""><a href="<?php if(page()->isHomePage()){echo "#news";}else{echo $site->homePage()->url() . DS . "#news";}?>">News</a></li>
+      <li class=""><a href="<?php if(page()->isHomePage()){echo "#investments";}else{echo $site->homePage()->url() . DS . "#investments";}?>">New Zealand Investments</a></li>
+      <li class=""><a href="<?php if(page()->isHomePage()){echo "#contact";}else{echo $site->homePage()->url() . DS . "#contact";}?>">Contact</a></li>
     </ul>
   </nav>
 </header>

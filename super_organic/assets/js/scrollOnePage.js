@@ -9,7 +9,7 @@
         $('html,body').animate({scrollTop:target -120}, 'slow');
         return false;
       });
-     
+    
     /*Main Menu Scroll*/
     var offs = '25%';
       $("section").waypoint({
@@ -25,3 +25,22 @@
         },
         offset: offs
       });
+
+var currenthash = window.location.hash;
+    
+      
+      if(currenthash){
+      
+      $('html, body').ready(function(){
+        
+        setTimeout(
+        function(){currenthash = window.location.hash;
+        var newTarget = $(currenthash).offset().top;
+        console.log(newTarget);
+        $('html,body').animate({scrollTop:newTarget -200}, 'slow');currenthash = undefined;}, 2500);
+        
+      });
+      
+      
+    } 
+
