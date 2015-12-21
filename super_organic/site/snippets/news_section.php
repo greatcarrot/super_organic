@@ -25,7 +25,7 @@
                               <div class="bbx-col-2">
                                 <h5 class="bbx-sergeant"><a href="<?php echo $article->url() ?>"><i class="fa fa-bank color-color-option"></i> <?php echo $article->title()->html() ?></a></h5>
                                 <span class="bbx-wide-divider-small-detail"></span>
-                                <p><?php echo $article->text()->kirbytext() ?></p>
+                                <p><?php echo $article->text()->excerpt(160) ?></p>
                               </div>
                             </div>
                           </div>

@@ -1,28 +1,22 @@
-Leftsectiontitle: Test 1
+Leftsectiontitle: Left section Title
 
 ----
 
-Leftsectiontext: 
-
-Lorem Text Lorem Text Lorem Text Lorem Text v Lorem Text
-LoremTextLoremTextLoremTextLoremTextLoremTextLoremText
-LoremText
-LoremText LoremText LoremText LoremText
-LoremText
+Leftsectiontext: Left section text
 
 ----
 
-Rightsectiontitle: Test 2
+Rightsectiontitle: Maui Milk
 
 ----
 
 Rightsectiontext: 
 
-Lorem Text Lorem Text Lorem Text Lorem Text v Lorem Text
-LoremTextLoremTextLoremTextLoremTextLoremTextLoremText
-LoremText
-LoremText LoremText LoremText LoremText
-LoremText
+Maui Milk is a joint venture between Super Organic Dairy Company and the Waituhi Kuratau Farm Trust.  
+ 
+Waituhi Kuratau Farm Trust has been milking sheep for a number of years and has a good understanding of the environmental advantages.  It is important for the trust that the land and environment is protected for future generations, and sheep milk dairying achieves this.  The trust also owns the land where the Maui Milk farm is located on South-Western side of Lake Taupo in the centre of New Zealand’s North Island.
+ 
+For my information please check out the Maui Milk Website.
 
 ----
 
@@ -38,4 +32,4 @@ Address: adr 1
 
 ----
 
-Title: Family Law
+Title: Maui Milk

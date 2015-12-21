@@ -82,8 +82,8 @@
                     </div>
                     <span class="bbx-wide-divider-small-detail"></span>
                     <h5 class="bbx-sergeant transparent-text-black">Extra Details</h5>
-                    <p><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis nisi tincidunt, molestie nunc vulputate, pos.</strong></p>
-                    <p class="transparent-text-black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis nisi tincidunt, molestie nunc vulputate, posuere.</p>
+                    <p><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</strong></p>
+                    <p class="transparent-text-black">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <p class="transparent-text-black bbx-2x-margin-bottom">Donec gravida augue eget risus varius lacinia. Vestibulum gravida dictum est eu.</p>
                     <a href="#" class="bbx-solid-social-link bbx-facebook">
                       <i class="fa fa-facebook"></i>
@@ -141,7 +141,7 @@
                                     to display success/eror results
                                     -->
                       <p class="form-extra-info transparent-text-black form-results-container">
-                        
+                        We will get back to you within 1-2 business days
                                     </p>
                       <span class="bbx-top-left-detail"></span>
                       <span class="bbx-top-right-detail"></span>

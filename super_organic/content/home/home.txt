@@ -2,7 +2,9 @@ Title: Home
 
 ----
 
-Text: Yay! If you are seeing this, the installation of Kirby worked. :)
+Text: 
+
+Yay! If you are seeing this, the installation of Kirby worked. :)
 
 ## Get started
 
@@ -13,3 +15,51 @@ Text: Yay! If you are seeing this, the installation of Kirby worked. :)
 - (link: http://getkirby.com/support text: Get in contact) if you need support.
 
 **Have fun with Kirby!**
+
+----
+
+Firstslidetitle: This is a title
+
+----
+
+Firstslidetagline: This is a tag line
+
+----
+
+Firstslidetext: This is text
+
+----
+
+Firstslidecolorstyle: dark
+
+----
+
+Secondslidetitle: This is another title
+
+----
+
+Secondslidetagline: This is another tagline
+
+----
+
+Secondslidetext: This is another text
+
+----
+
+Secondslidecolorstyle: dark
+
+----
+
+Thirdslidetitle: This is a third title
+
+----
+
+Thirdslidetagline: This is a third tagline
+
+----
+
+Thirdslidetext: This is a third text
+
+----
+
+Thirdslidecolorstyle: dark
