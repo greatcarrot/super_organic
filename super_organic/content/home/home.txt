@@ -30,7 +30,7 @@ Firstslidetext: This is text
 
 ----
 
-Firstslidecolorstyle: dark
+Firstslidecolorstyle: light
 
 ----
 
@@ -46,7 +46,7 @@ Secondslidetext: This is another text
 
 ----
 
-Secondslidecolorstyle: dark
+Secondslidecolorstyle: light
 
 ----
 
@@ -62,4 +62,4 @@ Thirdslidetext: This is a third text
 
 ----
 
-Thirdslidecolorstyle: dark
+Thirdslidecolorstyle: light

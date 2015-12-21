@@ -1,6 +1,6 @@
 <?php
 
-$bbxContactFormRecipient = 'savarus92@gmail.com';
+$bbxContactFormRecipient = 'put your email here';
 
 function bbxSendMail($sendTo='') {
     $fields = $_POST['contact_form'];
