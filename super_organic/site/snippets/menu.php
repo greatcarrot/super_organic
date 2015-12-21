@@ -3,8 +3,8 @@
       <span></span>
     </a>
     <a href="<?php echo $site->homePage()->url() ?>" class="bbx-logo">
-      <img class="bbx-logo-light" src="<?php echo url('assets/images/logo-r-peter-river.png') ?>" alt="logo image">
-      <img class="bbx-logo-default" src="<?php echo url('assets/images/logo-r-peter-river.png') ?>" alt="logo image">
+      <img class="bbx-logo-light" src="<?php echo url('assets/images/super_organic_logo.png') ?>" alt="logo image">
+      <img class="bbx-logo-default" src="<?php echo url('assets/images/super_organic_logo.png') ?>" alt="logo image">
     </a>
     <div class="bbx-logo-extra-text">
       <p class="bbx-meta bbx-no-margin">
