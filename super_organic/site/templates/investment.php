@@ -1,56 +1,50 @@
 <?php snippet('header') ?>
 <div id="bbx-contents-wrap" class="main-wrap" style="background-color:#262626-">
       <section id="investments">
-        <header class="bbx-head bbx-9x-padding-top">
+        <header class="bbx-head bbx-9x-padding-top bbx-4x-padding-bottom">
+          <div class="bbx-header-content bbx-main-container">
+            <div class="bbx-head-title-area">
+              <h5 class="bbx-no-margin"><?php echo $page->title()->html() ?></h5>
+            </div>
+          </div>
         </header>
-        <div> <!-- Blog Loop & Single Posts class="content-width-wrap" -->
+        <div class="content-width-wrap"> <!-- Blog Loop & Single Posts -->
           <div class="bbx-row bbx-grid-4x-margin no-outter-padding">
             <div class="bbx-col-1"> <!-- Content -->
-              <section class="bbx-builder-row bbx-4x-padding-bottom">
+              <section class="bbx-builder-row">
                 <div class="section-content-width"> <!-- Element Width -->
                   <div class="bbx-row bbx-grid-4x-margin no-outter-padding">
                     <div class="bbx-col-1">
                       <div class="bbx-element-content">
                         <div class="bbx-row bbx-grid-4x-margin no-outter-padding">
                           <div class="bbx-col-1">
-                            <div class="bbx-wide-member-wrap bbx-single-member bbx-corner-details visible-corners">
+                            <article class="bbx-post-wrap bbx-single-post-wrap">
                               <?php if($image = $page->image()): ?>
-                              <div class="bbx-member-picture">
-                                <img src="<?php echo $image->url() ?>" alt="<?php echo html($image->title()) ?>">
+                              <div class="bbx-image-wrap single-button-wrap">
+                                <span class="bbx-image">
+                                  <img src="<?php echo $image->url() ?>" alt="<?php echo html($image->title()) ?>">
+                                  <a href="<?php echo $image->url() ?>" class="bbx-gallery-link bbx-photo-swipe"
+                                                   data-bbx-photo-swipe-rel="home_blog"
+                                                   data-origin-size="<?php echo html($image->width()) ?>x<?php echo html($image->height()) ?>"><i class="fa fa-search"></i>
+                                  </a>
+                                </span>
+                                
+                                <!--
+                                                * BbxPhotoSwipe
+                                                *
+                                                * Based on PhotoSwipe library by @dimsemenov
+                                                *
+                                                * @param string data-bbx-photo-swipe-rel Defines the group to select images from in the gallery
+                                                * @param string data-origin-size In the format "widthXheight" defines the original size of the image
+                                                -->
                               </div>
                               <?php endif ?>
-                              <div class="bbx-member-sidebar" id="sidebar">
-                                <ul class="bbx-icon-list bbx-2x-margin-bottom">
-                                  <li><i class="fa fa-phone transparent-text-black"></i><strong class="color-color-option"><?php echo $page->phone()->kirbytext() ?></strong></li>
-                                  <li><i class="fa fa-envelope transparent-text-black"></i><span><?php echo $page->email()->kirbytext() ?></span></li>
-                                  <li><i class="fa fa-map-marker transparent-text-black"></i><?php echo $page->address()->kirbytext() ?></li>
-                                </ul>
-                                <h5 class="bbx-sergeant bbx-block transparent-text-black"><?php echo $page->leftSectionTitle()->kirbytext() ?></h5>
-                                <span class="bbx-wide-divider-small-detail"></span>
-                                <p class="bbx-2x-margin-bottom"><?php echo $page->leftSectionText()->kirbytext() ?></p>
-                                <h5 class="bbx-sergeant bbx-block transparent-text-black">Social Networks</h5>
-                                <span class="bbx-wide-divider-small-detail"></span>
-                                <a href="#" class="bbx-simple-social-link bbx-facebook">
-                                  <i class="fa fa-facebook"></i>
-                                </a>
-                                <a href="#" class="bbx-simple-social-link bbx-twitter">
-                                  <i class="fa fa-twitter"></i>
-                                </a>
-                                <a href="#" class="bbx-simple-social-link bbx-google-plus">
-                                  <i class="fa fa-google-plus"></i>
-                                </a>
-                              </div>
-                              <h3 class="bbx-block bbx-no-margin"><?php echo $page->rightSectionTitle()->kirbytext() ?></h3>
-                              <span class="bbx-wide-divider-small-detail"></span>
-                              <div style="min-height: 670px;" id="maintext">
-                                <?php echo $page->rightSectionText()->kirbytext() ?>
+                              <div class="bbx-post-content">
+                                
+                                <p><?php echo $page->text()->kirbytext() ?></p>
                                 
                               </div>
-                              <span class="bbx-top-left-detail"></span>
-                              <span class="bbx-top-right-detail"></span>
-                              <span class="bbx-bottom-right-detail"></span>
-                              <span class="bbx-bottom-left-detail"></span>
-                            </div>
+                            </article>
                           </div>
                         </div>
                       </div>

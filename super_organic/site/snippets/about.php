@@ -7,8 +7,7 @@
                   <div class="bbx-col-1 bbx-animation-on-appear fade_left">
                     <h5 class="bbx-sergeant transparent-text-black">Our Story</h5>
                     <h3><?php echo $data->title()->html() ?></h3>
-                    <p><?php echo $data->textFirst()->kirbytext() ?></p>
-                    <p class="transparent-text-black"><?php echo $data->textSecond()->kirbytext() ?> </p>
+                    <p><?php echo $data->textFirst()->text() ?></p>
                     
                   </div>
                 </div>

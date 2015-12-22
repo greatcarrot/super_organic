@@ -8,11 +8,7 @@ fields:
   title:
     label: Title
     type:  text
-  textFirst:
+  text:
     label: Text Part One
-    type:  textarea
-    size:  large
-  textSecond:
-    label: Text Part Two
     type:  textarea
     size:  large
