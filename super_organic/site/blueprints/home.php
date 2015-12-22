@@ -10,16 +10,16 @@ fields:
     label: Title
     type:  text
   firstSlide:
-    label: First Slide
+    label: Image Properties
     type: headline
   firstSlideTitle:
-    label: First Slide Title
+    label: Image Title
     type: text
   firstSlideTagline:
-    label: First Slide Tagline
+    label: Image Tagline
     type: text
   firstSlideText:
-    label: First Slide Text
+    label: Image Text
     type: textarea
   firstSlideColorstyle:
     label: Color Style
@@ -27,39 +27,4 @@ fields:
     options:
       dark: Dark
       light: Light
-  secondSlide:
-    label: Second Slide
-    type: headline
-  secondSlideTitle:
-    label: Second Slide Title
-    type: text
-  secondSlideTagline:
-    label: Second Slide Tagline
-    type: text
-  secondSlideText:
-    label: Second Slide Text
-    type: textarea
-  secondSlideColorstyle:
-    label: Color Style
-    type: radio
-    options:
-      dark: Dark
-      light: Light
-  thirdSlide:
-    label: Third Slide
-    type: headline
-  thirdSlideTitle:
-    label: Third Slide Title
-    type: text
-  thirdSlideTagline:
-    label: Third Slide Tagline
-    type: text
-  thirdSlideText:
-    label: Third Slide Text
-    type: textarea
-  thirdSlideColorstyle:
-    label: Color Style
-    type: radio
-    options:
-      dark: Dark
-      light: Light
+  

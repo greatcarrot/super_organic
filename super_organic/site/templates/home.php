@@ -15,33 +15,13 @@
                 </div>
               </div>
             </div>
-            <div class="slide-content-item" data-appear-effect="right" style="display:none;" data-color-style="<?php echo $page->secondSlideColorstyle()->html() ?>">
-              <div class="bbx-row side-padding">
-                <div class="bbx-col-2">
-                  <p class="bbx-sergeant transparent-text-black"><?php echo $page->secondSlideTagline()->html() ?></p>
-                  <span class="bbx-wide-divider-small-detail"></span>
-                  <h1><?php echo $page->secondSlideTitle()->html() ?></h1>
-                  <span class="bbx-wide-divider-small-detail"></span>
-                  <p class="transparent-text-black bbx-no-margin"><?php echo $page->secondSlideText()->kirbytext() ?></p>
-                </div>
-              </div>
-            </div>
-            <div class="slide-content-item" data-appear-effect="right" style="display:none;" data-color-style="<?php echo $page->thirdSlideColorstyle()->html() ?>">
-              <div class="bbx-row side-padding">
-                <div class="bbx-col-2">
-                  <p class="bbx-sergeant transparent-text-black"><?php echo $page->thirdSlideTagline()->html() ?></p>
-                  <span class="bbx-wide-divider-small-detail"></span>
-                  <h1><?php echo $page->thirdSlideTitle()->html() ?></h1>
-                  <span class="bbx-wide-divider-small-detail"></span>
-                  <p class="transparent-text-black bbx-no-margin"><?php echo $page->thirdSlideText()->kirbytext() ?></p>
-                </div>
-              </div>
-            </div>
+            
+            
           </div>
           <!-- Swiper backgrounds (actual slides) -->
           <div class="swiper-container">
             <div class="swiper-wrapper">
-            <?php foreach($page->images()->paginate(3) as $image): ?>
+            <?php foreach($page->images()->paginate(1) as $image): ?>
               <div class="swiper-slide" style="background-image: url('<?php echo $image->url() ?>');"></div>
             <?php endforeach ?>
             </div>
