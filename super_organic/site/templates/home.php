@@ -26,36 +26,7 @@
             <?php endforeach ?>
             </div>
           </div>
-          <!-- Swiper control nav buttons -->
-          <ul class="bbx-fancy-bullets swiper-control-nav">
-            <li class="current-bullet" data-type="active">
-              <a href="#" class="bullet">
-                <span class="left-detail"></span>
-                <span class="right-detail"></span>
-              </a>
-            </li>
-            <li class="inactive" data-type="inactive">
-              <a href="#" class="bullet">
-                <span class="left-detail"></span>
-                <span class="right-detail"></span>
-              </a>
-            </li>
-            <li class="inactive" data-type="inactive">
-              <a href="#" class="bullet">
-                <span class="left-detail"></span>
-                <span class="right-detail"></span>
-              </a>
-            </li>
-          </ul>
-          <!-- Swiper direction nav buttons -->
-          <div class="bbx-arrow-nav swiper-direction-nav">
-            <a href="#" class="arrow-nav arrow-nav-prev">
-              <i class="fa fa-chevron-left"></i>
-            </a>
-            <a href="#" class="arrow-nav arrow-nav-next">
-              <i class="fa fa-chevron-right"></i>
-            </a>
-          </div>
+          
         </div>
       </section>
 
