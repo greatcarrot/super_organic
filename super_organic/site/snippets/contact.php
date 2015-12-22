@@ -1,96 +1,29 @@
 <section id="contact" class="bbx-builder-row bbx-4x-padding-bottom">
+        
+      </section>
+      <section class="bbx-builder-row bbx-4x-padding-bottom">
         <div class="section-content-width"> <!-- Element Width -->
           <div class="bbx-row bbx-grid-4x-margin no-outter-padding">
             <div class="bbx-col-1">
-              <h3><?php echo $data->title()->html() ?></h3>
-              <div class="bbx-element-content">
+              <div class="bbx-element-content bbx-4x-padding-top">
                 <div class="bbx-row bbx-grid-4x-margin no-outter-padding">
-                  <div class="bbx-col-1">
-                    <!--
-                                *
-                                * BbxMap
-                                *
-                                * A Google Map with some custom functionalities
-                                *
-                                * @param string data-latlng - a comma separated string pointing to the center of the map
-                                * @param string data-markerlatlng - a comma separated string pointing to the map coords (if marker needed)
-                                * @param string data-pin-style - the style of the pint. Available options:
-                                                                                        dark_svg, white_svg, dark_png, white_png
-                                * @param int data-zoom - the zoom level of the map
-                                * @param bool data-wheel - whether to enable zoom on scroll wheel
-                                * @param bool data-zoom-control - whether to display zoom controls
-                                * @param bool data-street-view - whether to display street view control
-                                * @param bool data-pan - display of pan control
-                                * @param bool data-scale - display scale
-                                * @param string data-map-style - based on snazzymaps (https://snazzymaps.com/). Available in theme:
-                                                                subtleGrayscale
-                                                                blueWater
-                                                                paleDown
-                                                                shadesOfGrey
-                                                                midnightCommander
-                                                                appleMapsEsque
-                                                                retro
-                                                                lightMonochrome
-                                                                blueEssence
-                                                                paper
-                                                                flatMap
-                                                                greyscale
-                                                                blackAndWhite
-                                                                mutedBlue
-                                                                cleanCut
-                                                                snazzyMaps
-                                                                redHues
-                                                                vintage
-                                                                aDarkWorld
-                                -->
-                    <div class="bbx-map"
-                                     style="padding-top:33%;"
-                                     data-latng="42.135251626085854,24.756848411331248"
-                                     data-markerlatlng="42.13627,24.76276000000007"
-                                     data-pin-style="dark_svg"
-                                     data-zoom="13"
-                                     data-wheel="false"
-                                     data-zoom-control="true"
-                                     data-street-view="false"
-                                     data-pan="true"
-                                     data-scale="false"
-                                     data-map-style="subtleGrayscale">
-                      <div class="bbx-map-holder"></div>
-                    </div>
-                  </div>
+                  <div class="bbx-col-1 bbx-animation-on-appear fade_left"><h3><?php echo $data->title()->html() ?></h3></div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-      <section class="bbx-builder-row bbx-4x-padding-bottom">
-        <div class="section-content-width"> <!-- Element Width -->
           <div class="bbx-row bbx-grid-4x-margin no-outter-padding">
             <div class="bbx-col-3">
               <div class="bbx-element-content">
                 <div class="bbx-row bbx-grid-4x-margin no-outter-padding">
                   <div class="bbx-col-1">
-                    <div class="bbx-simple-icon-box style-2 bbx-3x-margin-bottom">
-                      <span class="bbx-simple-box">
-                        <i class="fa fa-map-marker"></i>
-                      </span>
-                      <p><strong><a class="bbx-dark-link" href="#">2760 Bell Street<br>
-                             San Antonio, TX 78217</a></strong></p>
-                      <p class="transparent-text-black bbx-no-margin bbx-block">210-995-0926<br>
-                        sanantonio@mail.com</p>
-                    </div>
+                    
                     <span class="bbx-wide-divider-small-detail"></span>
                     <h5 class="bbx-sergeant transparent-text-black">Extra Details</h5>
                     <p><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</strong></p>
                     <p class="transparent-text-black">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <p class="transparent-text-black bbx-2x-margin-bottom">Donec gravida augue eget risus varius lacinia. Vestibulum gravida dictum est eu.</p>
-                    <a href="#" class="bbx-solid-social-link bbx-facebook">
-                      <i class="fa fa-facebook"></i>
-                    </a>
-                    <a href="#" class="bbx-solid-social-link bbx-twitter">
-                      <i class="fa fa-twitter"></i>
-                    </a>
+                    
                   </div>
                 </div>
               </div>
