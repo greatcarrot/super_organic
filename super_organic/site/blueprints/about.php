@@ -9,6 +9,6 @@ fields:
     label: Title
     type:  text
   text:
-    label: Text Part One
+    label: Text
     type:  textarea
     size:  large

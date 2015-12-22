@@ -2,14 +2,10 @@ Title: About
 
 ----
 
-Textfirst: 
+Text: 
 
 New Zealand is recognised around the world for the quality of its food products, and Super Organic Dairy Company’s New Zealand investments will enhance this reputation.  
  
 A change of land usage is required in New Zealand as traditional dairying is reaching its environmental limits. Sheep Milk dairying offers a high value product with a lower environmental impact.
  
 Super Organic is focused on developing the New Zealand Sheep milking industry from the ground up. We see bright long-term future for Sheep Dairy industry in New Zealand.
-
-----
-
-Textsecond: 
