@@ -1,7 +1,4 @@
 <section id="contact" class="bbx-builder-row bbx-4x-padding-bottom">
-        
-      </section>
-      <section class="bbx-builder-row bbx-4x-padding-bottom">
         <div class="section-content-width"> <!-- Element Width -->
           <div class="bbx-row bbx-grid-4x-margin no-outter-padding">
             <div class="bbx-col-1">
