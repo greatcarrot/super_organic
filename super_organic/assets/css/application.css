@@ -11557,3 +11557,10 @@ a.pswp__share--download:hover {
 
 
 */
+
+.bbx-wide-member-wrap .bbx-member-description {
+  position: absolute;
+  bottom: 18px;
+  right: 144px;
+  left: 408px;
+}
